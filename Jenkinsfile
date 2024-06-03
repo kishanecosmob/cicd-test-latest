@@ -10,8 +10,8 @@ pipeline {
         NEXUS_VERSION = "nexus3"
         NEXUS_PROTOCOL = "http"
         NEXUS_URL = "172.16.18.116:8081"
-        NEXUS_REPOSITORY = "vprofile-release-new"
-	NEXUS_REPO_ID    = "vprofile-release-new"
+        NEXUS_REPOSITORY = "vprofile-release"
+	NEXUS_REPO_ID    = "vprofile-release"
         NEXUS_CREDENTIAL_ID = "nexuslogin"
         ARTVERSION = "${env.BUILD_ID}"
     }
